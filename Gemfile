@@ -6,7 +6,9 @@ gem 'rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 
-gem 'sqlite3'
+group :development do
+  gem 'sqlite3'
+end
 
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
