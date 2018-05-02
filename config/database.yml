@@ -7,7 +7,7 @@ default: &default
   username: aio
   password: ponyboy
 
-aio:
+development:
   <<: *default
   adapter: sqlite3
   #database: songlistr
