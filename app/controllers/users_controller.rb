@@ -7,17 +7,17 @@ class UsersController < ApplicationController
     @users = User.all
   end
 
-  # GET /widgets/1
-  # GET /widgets/1.json
+  # GET /users/1
+  # GET /users/1.json
   def show
   end
 
-  # GET /widgets/new
+  # GET /users/new
   def new
     @user = User.new
   end
 
-  # GET /widgets/1/edit
+  # GET /users/1/edit
   def edit
   end
 
